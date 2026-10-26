@@ -2,6 +2,13 @@
 
 Newest first. Download each release from [Releases](../../releases).
 
+## 0.1.1 (2026-10-26)
+
+- **A licensed installation runs on Microsoft SQL Server.** The 30-day evaluation still runs on the built-in database.
+  Installing a license requires SQL Server first; the Licenses page shows the steps (`bin\ooa.bat db configure`,
+  `set-password`, `init`, `copy`), and the copy step keeps the evaluation's data. See INSTALL.md, section 5.
+- The README inside the zip and INSTALL.md describe the new order: evaluate, move to SQL Server, then license.
+
 ## 0.1.0 (2026-10-26)
 
 First customer release.

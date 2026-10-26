@@ -19,9 +19,11 @@ Your license file (`.lic`) is sent to you separately by ONEOFFICEAUTOMATION. It 
 2. Unzip `ooa-customer-<version>.zip`, for example to `C:\OOA`.
 3. Double-click **`START-OOA.cmd`**. Your browser opens http://localhost:8720.
 4. Sign in as `admin` with the one-time password shown in the window, then choose your own password.
-5. Open **Administration > Licenses**, install your `.lic` file, and give seats to your people and runners.
+5. Before licensing, move to **Microsoft SQL Server** ([INSTALL.md](INSTALL.md), section 5). Then open
+   **Administration > Licenses**, install your `.lic` file, and give seats to your people and runners.
 
-Without a license the product runs as a 30-day evaluation (2 developers, 2 attended runners, 2 unattended runners).
+Without a license the product runs as a 30-day evaluation (2 developers, 2 attended runners, 2 unattended runners)
+on its built-in database, so you can try it without SQL Server.
 
 The full guide, covering runners on other machines, SQL Server, upgrades and backup, is in [INSTALL.md](INSTALL.md).
 Changes per release are in [RELEASES.md](RELEASES.md).

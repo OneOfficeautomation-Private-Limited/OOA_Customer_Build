@@ -24,6 +24,10 @@ To use another port: `START-OOA.cmd --port 8730`. The data is kept in `%USERPROF
 
 ## 3. License
 
+A licensed installation runs on **Microsoft SQL Server**. The evaluation can use the built-in database, but before you
+install your license, set up SQL Server as in section 5. That moves your evaluation's data across, and until it is done
+the Licenses page shows these steps in place of the install form.
+
 1. Sign in as an administrator and open **Administration > Licenses**.
 2. Choose your `.lic` file (or paste its text) and click **Install license**.
 3. Give seats on the same page:
@@ -51,7 +55,7 @@ To check a license file without installing it: `bin\ooa.bat license show yourfil
 
 3. In **Administration > Licenses**, give the runner an Unattended Runner seat.
 
-## 5. Production database: Microsoft SQL Server
+## 5. Production database: Microsoft SQL Server (needed before licensing)
 
 A database administrator creates two logins:
 
