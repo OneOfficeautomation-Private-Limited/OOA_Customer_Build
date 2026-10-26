@@ -1,0 +1,4 @@
+# release files are uploaded to GitHub Releases, never committed
+*.zip
+*.lic
+*.key
