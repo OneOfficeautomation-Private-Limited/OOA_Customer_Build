@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ONEOFFICEAUTOMATION releases</title>
+<style>
+:root{--bg:#fff;--fg:#1d2433;--muted:#5b6578;--line:#dde2ea;--card:#f6f8fb;--accent:#1f5fbf;--warn:#9a5b00}
+@media (prefers-color-scheme:dark){:root{--bg:#12161d;--fg:#e6e9ef;--muted:#9aa3b2;--line:#2b3240;--card:#1a2029;--accent:#7fb0ff;--warn:#f0b35a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:0}
+a{color:var(--accent)}.muted{color:var(--muted)}
+section{border:1px solid var(--line);border-radius:10px;padding:16px;margin:18px 0;background:var(--card)}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:9px;border:1px solid var(--line);margin-left:8px;vertical-align:2px}
+.warn{color:var(--warn)}
+.files{width:100%;border-collapse:collapse;margin-top:10px;font-size:14px}
+.files th,.files td{text-align:left;padding:6px 8px;border-top:1px solid var(--line);vertical-align:top}
+.sha{font-family:ui-monospace,Consolas,monospace;font-size:12px;word-break:break-all}
+.notes{white-space:pre-wrap;margin:10px 0 0}
+code{font-family:ui-monospace,Consolas,monospace;font-size:13px}
+.scroll{overflow-x:auto}
+</style></head><body><main>
+<h1>ONEOFFICEAUTOMATION releases</h1>
+<p class="muted">Every release, newest first. Download <b>ooa-setup-VERSION.zip</b> (Java included), unzip it and run <code>Install.cmd</code>. Install your license file in Administration &gt; Licenses; without one, a new install runs a 30-day evaluation.</p>
+<p class="muted">Check a download before installing: with an earlier install, run <code>ooa release verify ooa-VERSION.manifest.json</code> in the folder with the downloads (it checks the vendor's signature, then each file). Otherwise compare the SHA-256 below with <code>certutil -hashfile FILE SHA256</code>. The checksums here come from each release's signed manifest.</p>
+<section><h2>ONEOFFICEAUTOMATION 0.1.1</h2><div class="muted">v0.1.1 &middot; 2026-10-26 &middot; <a href="https://github.com/VirupakshaPrabhu/OOA_Customer_Build/releases/tag/v0.1.1">on GitHub</a></div>
+<p class="warn">No valid signed manifest for this release: no checksums are shown.</p>
+<p class="notes">ONEOFFICEAUTOMATION 0.1.1 for customers.
+
+A licensed installation runs on Microsoft SQL Server: the evaluation keeps the built-in database, and installing a license needs SQL Server first (the Licenses page shows the steps).
+
+Install: download ooa-customer-0.1.1.zip, unzip it, double-click START-OOA.cmd (Java 21 needed), then install your license in Administration &gt; Licenses. Full guide: INSTALL.md.
+
+Built from oneofficeautomation@e61bc47.</p>
+<div class="scroll"><table class="files"><tr><th>File</th><th>Size</th><th>SHA-256</th></tr>
+<tr><td><a href="https://github.com/VirupakshaPrabhu/OOA_Customer_Build/releases/download/v0.1.1/ooa-customer-0.1.1.zip">ooa-customer-0.1.1.zip</a></td><td>198.5 MB</td><td class="sha">&ndash;</td></tr>
+</table></div></section>
+<section><h2>ONEOFFICEAUTOMATION 0.1.0</h2><div class="muted">v0.1.0 &middot; 2026-10-26 &middot; <a href="https://github.com/VirupakshaPrabhu/OOA_Customer_Build/releases/tag/v0.1.0">on GitHub</a></div>
+<p class="warn">No valid signed manifest for this release: no checksums are shown.</p>
+<p class="notes">ONEOFFICEAUTOMATION 0.1.0 for customers.
+
+First customer release: One Command Center, One Agent Studio and One Runner, with SQL Server support and signed licensing.
+
+Install: download ooa-customer-0.1.0.zip, unzip it, double-click START-OOA.cmd (Java 21 needed), then install your license in Administration &gt; Licenses. Full guide: INSTALL.md.
+
+Built from oneofficeautomation@cb808c7.</p>
+<div class="scroll"><table class="files"><tr><th>File</th><th>Size</th><th>SHA-256</th></tr>
+<tr><td><a href="https://github.com/VirupakshaPrabhu/OOA_Customer_Build/releases/download/v0.1.0/ooa-customer-0.1.0.zip">ooa-customer-0.1.0.zip</a></td><td>198.5 MB</td><td class="sha">&ndash;</td></tr>
+</table></div></section>
+<p class="muted">Generated from <a href="https://github.com/VirupakshaPrabhu/OOA_Customer_Build/releases">VirupakshaPrabhu/OOA_Customer_Build</a>. Machine-readable: <a href="releases.json">releases.json</a>.</p>
+</main></body></html>
